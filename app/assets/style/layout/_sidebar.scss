@@ -1,0 +1,19 @@
+aside {
+  width: 18.5rem !important;
+  padding: 2rem !important;
+  .logo {
+    padding-bottom: 2rem;
+  }
+  a {
+    margin-inline: -2rem;
+    padding-inline: 2rem;
+    border-left: 4px solid transparent;
+    &:hover,
+    &:active {
+      border-left: 4px solid $success;
+    }
+  }
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+  }
+}
