@@ -1,0 +1,13 @@
+.wrapper {
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 18.5rem !important;
+  padding: 2rem !important;
+}
+
+.content {
+  max-width: calc(100vw - 18.5rem) !important;
+  padding: 2rem;
+}

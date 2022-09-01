@@ -7,4 +7,12 @@ a {
   text-decoration: none;
   color: inherit;
   display: block;
+  transition: all 0.2s;
+  &:focus-visible {
+    outline: 0;
+  }
+}
+
+img {
+  vertical-align: middle;
 }

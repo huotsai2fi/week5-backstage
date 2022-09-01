@@ -1,16 +1,33 @@
-aside {
-  width: 18.5rem !important;
-  padding: 2rem !important;
-  .logo {
-    padding-bottom: 2rem;
+.sidebar {
+  &__logo {
+    height: 40px;
+    margin-bottom: 2rem;
   }
-  a {
-    margin-inline: -2rem;
-    padding-inline: 2rem;
-    border-left: 4px solid transparent;
-    &:hover,
-    &:active {
-      border-left: 4px solid $success;
+  li {
+    a {
+      margin-inline: -2rem;
+      padding-inline: 2rem;
+      border-left: 4px solid transparent;
+      &:hover,
+      &:active,
+      &.active {
+        color: $success;
+        border-left: 4px solid $success;
+      }
+    }
+    &:not(last-of-type) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__user {
+    &--photo {
+      background-image: url(https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=2000&q=80);
+      background-position: center;
+      background-size: cover;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
     }
   }
   .material-symbols-outlined {

@@ -10,6 +10,8 @@
 @import '../../../node_modules/bootstrap/scss/bootstrap';
 
 @import './helpers/base';
+@import './helpers/util';
+@import './layout/layout';
 @import './layout/sidebar';
 @import './pages/admin';
 @import './pages/assignment';

@@ -1,10 +1,140 @@
 ---
-title: Admin
+title: Answer
 layout: ./app/layout.ejs
 engine: ejs
-current: admin
+current: index
 ---
 
-<main>
-  test main
-</main>
+<div class="admin d-flex flex-column h-100">
+  <section class="d-flex align-items-end mb-5">
+    <h1 class="fs-4 fw-bold m-auto me-5">Admin</h1>
+    <div class="flex-grow-1">
+      <a class="cursor-pointer d-inline">
+        <span class="material-symbols-outlined text-success align-bottom fs-4 me-2">add</span>
+        <span class="fw-bold">Add New Admin</span>
+      </a>
+    </div>
+    <div>
+      <span class="material-symbols-outlined align-bottom fs-4 me-4 cursor-pointer hover-success">search</span>
+      <span class="material-symbols-outlined align-bottom fs-4 cursor-pointer hover-success">notifications_active</span>
+    </div>
+  </section>
+  <section class="flex-grow-1">
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Verified</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider">
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td class="text-end">
+            <span class="material-symbols-outlined align-bottom me-4 cursor-pointer">visibility</span>
+            <span class="material-symbols-outlined align-bottom cursor-pointer">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+          <td class="text-end">
+            <span class="material-symbols-outlined align-bottom me-4 cursor-pointer">visibility</span>
+            <span class="material-symbols-outlined align-bottom cursor-pointer">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry the Bird</td>
+          <td></td>
+          <td>@twitter</td>
+          <td class="text-end">
+            <span class="material-symbols-outlined align-bottom me-4 cursor-pointer">visibility</span>
+            <span class="material-symbols-outlined align-bottom cursor-pointer">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry the Bird</td>
+          <td></td>
+          <td>@twitter</td>
+          <td class="text-end">
+            <span class="material-symbols-outlined align-bottom me-4 cursor-pointer">visibility</span>
+            <span class="material-symbols-outlined align-bottom cursor-pointer">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry the Bird</td>
+          <td></td>
+          <td>@twitter</td>
+          <td class="text-end">
+            <span class="material-symbols-outlined align-bottom me-4 cursor-pointer">visibility</span>
+            <span class="material-symbols-outlined align-bottom cursor-pointer">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry the Bird</td>
+          <td></td>
+          <td>@twitter</td>
+          <td class="text-end">
+            <span class="material-symbols-outlined align-bottom me-4 cursor-pointer">visibility</span>
+            <span class="material-symbols-outlined align-bottom cursor-pointer">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry the Bird</td>
+          <td></td>
+          <td>@twitter</td>
+          <td class="text-end">
+            <span class="material-symbols-outlined align-bottom me-4 cursor-pointer">visibility</span>
+            <span class="material-symbols-outlined align-bottom cursor-pointer">edit</span>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry the Bird</td>
+          <td></td>
+          <td>@twitter</td>
+          <td class="text-end">
+            <span class="material-symbols-outlined align-bottom me-4 cursor-pointer">visibility</span>
+            <span class="material-symbols-outlined align-bottom cursor-pointer">edit</span>
+          </td>
+        </tr>
+
+
+      </tbody>
+    </table>
+  </section>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-end mb-0 lh-1">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true" class="material-symbols-outlined text-success">
+            navigate_before
+          </span>
+        </a>
+      </li>
+      <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true" class="material-symbols-outlined text-success">
+            navigate_next
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
