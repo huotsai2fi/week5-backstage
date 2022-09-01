@@ -89,7 +89,7 @@ function browser() {
   browserSync.init({
     server: {
       baseDir: envOptions.browserSetting.dir,
-      index: 'admin.html',
+      // index: 'admin.html',
     },
     port: envOptions.browserSetting.port,
   });
