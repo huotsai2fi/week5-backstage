@@ -1,10 +1,61 @@
----
-title: Answer
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Answer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <div class="d-flex wrapper">
+    <aside class="sidebar bg-light d-flex flex-column align-items-start">
+      <img src="./assets/images/logo-ANSWER.svg" alt="logo" class="sidebar__logo">
+      <ul class="list-unstyled fw-bold lh-lg flex-grow-1 w-100">
+        <li>
+          <a href="dashboard.html" class="d-flex align-items-center">
+            <span class="material-symbols-outlined pe-3">insert_chart</span>Dashboard
+          </a>
+        </li>
+        <li>
+          <a href="question.html" class="d-flex align-items-center">
+            <span class="material-symbols-outlined pe-3">forum</span>Question
+          </a>
+        </li>
+        <li>
+          <a href="assignment.html" class="d-flex align-items-center">
+            <span class="material-symbols-outlined pe-3">assignment</span>Assignment
+          </a>
+        </li>
+        <li>
+          <a href="course.html" class="d-flex align-items-center">
+            <span class="material-symbols-outlined pe-3">video_library</span>Course
+          </a>
+        </li>
+        <li>
+          <a href="admin.html" class="d-flex align-items-center">
+            <span class="material-symbols-outlined pe-3">group</span>Admin
+          </a>
+        </li>
+        <li>
+          <a href="settings.html" class="d-flex align-items-center">
+            <span class="material-symbols-outlined pe-3">settings</span>Settings
+          </a>
+        </li>
+      </ul>
+      <div class="sidebar__user d-flex align-items-center gap-3">
+        <div class="sidebar__user--photo"></div>
+        <div>
+          <p class="text-dark fw-bold lh-1 mb-1">Andy Chen</p>
+          <small class="text-secondary lh-1">andy0401@mail.com</small>
+        </div>
+      </div>
+    </aside>
+    <main class="content flex-grow-1">
+      
 <div class="admin d-flex flex-column h-100">
   <section class="d-flex align-items-end mb-5">
     <h1 class="fs-4 fw-bold m-auto me-5">Admin</h1>
@@ -138,3 +189,11 @@ current: index
     </ul>
   </nav>
 </div>
+    </main>
+  </div>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
